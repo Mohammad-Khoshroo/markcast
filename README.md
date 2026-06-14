@@ -22,8 +22,8 @@ It automatically parses and strips Markdown syntax (headers, bold text, lists, l
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/vox-markdown.git
-cd vox-markdown
+git clone https://github.com/Mohammad-Khoshroo/markcast.git
+cd markcast
 ```
 
 ### 2. Install dependencies
@@ -38,7 +38,7 @@ pip install edge-tts markdown beautifulsoup4
 
 1. Create a file named **`input.md`** in the same directory as the script and write your Markdown content inside it.
 
-2. Open **`main.py`** and set the `language_code` to your desired language:
+2. Open **`markcast.py`** and set the `language_code` to your desired language:
 
 - `"en"` for English  
 - `"fa"` for Persian  
@@ -49,7 +49,7 @@ pip install edge-tts markdown beautifulsoup4
 3. Run the script:
 
 ```bash
-python main.py
+python markcast.py
 ```
 
 ---
